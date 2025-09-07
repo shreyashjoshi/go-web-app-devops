@@ -9,7 +9,7 @@ spec:
   rules:
 # check if the config works  
 #  - host: go-web-app.local
-  - host: *
+  - host: '*'
     http:
       paths: 
       - path: /
